@@ -12,5 +12,4 @@ python3 update.py
 # Run the bot
 python3 -m bot
 
-# Keep the container alive (important for Koyeb)
-wait
+# Keep the container alive (important for Koye
