@@ -10,4 +10,4 @@ RUN mltbenv/bin/pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["bash", "start.sh"]
+CMD gunicorn app:app & ["bash", "start.sh"]
