@@ -33,3 +33,7 @@ uvicorn
 uvloop
 xattr
 yt-dlp[default,curl-cffi]
+flask==2.3.2
+#vjwebdeploye
+werkzeug==2.3.3
+itsdangerous==2.1.2
